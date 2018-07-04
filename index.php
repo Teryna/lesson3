@@ -1,4 +1,4 @@
-<?
+<?php
 error_reporting(E_ALL);
 
 $animals = [
@@ -63,7 +63,7 @@ foreach ($result as $continent => $animals) {
 </head>
 <body>
 
-<? 
+<?php
 echo "<h1>Список фантазийных животных</h1>";
 foreach ($result as $continent => $animals) {
      $fantasticAnimal = implode(', ', $animals);
